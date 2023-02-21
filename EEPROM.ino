@@ -27,7 +27,7 @@ void setup() {
     pinMode(i,INPUT_PULLUP);
   }
 
-  for(i=6;i<=13;i++){
+  for(i=7;i<=13;i++){
     pinMode(i,OUTPUT);
   }
 }
