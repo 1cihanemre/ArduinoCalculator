@@ -76,6 +76,9 @@ void loop() {
       }
     }
     binaryCalc();
+    
+    
+    
     GirilenSayiSayici++;
     delay(300);
 
@@ -84,10 +87,6 @@ void loop() {
   else if(digitalRead(writer)==1 && flag==false){
     flag=true;
     delay(100);
-  }
-
-  if(GirilenSayiSayici==1){
-    GirilenSayiSayici++;
   }
 
 
